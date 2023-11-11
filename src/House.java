@@ -12,8 +12,13 @@ public class House
    {
       return address;
    }
-   public void setBeds(int add){bedrooms = add;}
-   public int getBedrooms(){return bedrooms;}
-   public void setBaths(int add){bathrooms = add;}
-   public int getBathrooms(){return bathrooms;}
+
+
+   //create a method that will print out the address of this house
+   public void houseData(){
+
+      System.out.println("The address of this house is " + address + ".");
+
+   }// ends houseData
+
 }
